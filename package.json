@@ -1,0 +1,16 @@
+{
+  "name": "photo-gallery-dev",
+  "version": "0.0.1",
+  "scripts": {
+    "dev:serve": "node ./lib/server/start.js"
+  },
+  "exports": {
+    ".": "./lib/index.js"
+  },
+  "dependencies": {
+    "config": "^3.3.9",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "jimp": "^0.22.7"
+  }
+}

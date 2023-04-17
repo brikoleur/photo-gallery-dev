@@ -1,0 +1,9 @@
+{
+  "server": {
+    "port": 8081
+  },
+  "gallery": {
+    "root_fs_path": "public/galleries",
+    "root_url_path": "galleries"
+  }
+}
